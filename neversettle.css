@@ -1,0 +1,382 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: sans-serif;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(images/bb.jpg);
+}
+nav
+{
+    width: 80%;
+    position: sticky;
+    margin: 25px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logo
+{
+    flex-basis: 20%;
+
+}
+.logo img
+{
+    width: 150px;
+}
+.nav-links
+{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li 
+{
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+}
+.nav-links ul li a
+{
+    color: rgb(238, 230, 232);
+    text-decoration: underline;
+}
+.information
+{
+    width: 1000px;
+    position: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+#circle
+{
+    width: 650px;
+    height: 620px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 50%;
+    background: #3e474c;
+    transform: rotate(0deg);
+    transition: 1s;
+    }
+    .feature img
+    {
+        width: 60px;
+        cursor: pointer;
+    }
+    .feature
+    {
+        position: absolute;
+        color: aliceblue;
+    }
+    .feature div
+    {
+        margin-left: 15px;
+    }
+    .feature div p
+    {
+        margin-top: 2px;
+    }
+    .one
+    {
+      top: 450px;
+      right: -59px;
+    }
+    .one h1
+    {
+        color: #e7edf0;
+    }
+    .one p
+    {
+        color: #e7edf0;
+    }
+    .one a
+    {
+        text-decoration: none;
+    }
+    .two
+    {
+       top: 20px;
+       left: 489px;
+       transform: rotate(-90deg);
+    }
+    .two h1
+    {
+        color: #e7edf0;
+    }
+    .two p
+    {
+        color: #e7edf0;
+    }
+    .two a
+    {
+        text-decoration: none;
+    }
+    .three
+    {
+        bottom: 480px;
+        left: 50px;
+        transform: rotate(-180deg);
+    
+    }
+    .three h1
+    {
+        color: #e7edf0;
+    }
+    .three p
+    {
+        color: #e7edf0;
+    }
+    .three a
+    {
+        text-decoration: none;
+    }
+    .four
+    {
+        bottom: 40px;
+        right: 450px;
+        transform: rotate(-270deg);
+    }
+    .four h1
+    {
+        color: #e7edf0;
+    }
+    .four p
+    {
+        color: #e7edf0;
+    }
+    .four a
+    {
+        text-decoration: none;
+    }
+    .oneplus7
+    {
+        width: 420px;
+        position:absolute;
+        top: -240px;
+        left: 30px;
+        transform: translateY(50%);
+        z-index: 10;
+    }
+    .controls
+    {
+        position:absolute;
+        right: -350px;
+        top: 350px;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    .controls h2
+    {
+        margin: 55px;
+        color: rgb(244, 251, 251);
+    }
+    #upBtn
+    {
+        width: 55px;
+        cursor: pointer;
+    }
+    #downBtn
+    {
+        width: 55px;
+        cursor: pointer;
+    }
+    .nothing h2
+    {
+        color: #e7edf0;
+        text-align: center;
+
+    }
+    .nothing
+    {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+        background-image: url(images/federica-giusti-uYl9tJsnBXk-unsplash.jpg);
+    }
+    .reviews video
+    {
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        top: 40px;
+        left: -20px;
+        cursor: pointer;
+    }
+    .reviews h2
+    {
+      position: absolute;
+      top: 80px;
+      left: 80px;
+      background-color: burlywood;
+      color: #0a0a0a; 
+    }
+    .reviews2 img
+    {
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        top: 40px;
+        left: 280px;
+        cursor: pointer;
+    }
+    .reviews2 h4
+    {
+      position: absolute;
+      top: 5px;
+      left: 450px;
+      background-color: burlywood;
+      color: black;
+    } 
+.reviews3 img
+{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    cursor: pointer;
+}
+.reviews4 video
+{   width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 30px;
+    left: 800px;
+    cursor: pointer;
+    background-color: #0a0a0a;
+}
+.reviews4 h4
+{
+    position: absolute;
+    top: -30px;
+    left: 825px;
+    background-color: burlywood;
+}
+.buynow
+{
+    position: absolute;
+    top: 680px;
+    left: 870px;
+    cursor: pointer;
+}
+.buynow button:hover
+{
+    box-shadow: 6px 6px 6px gray;
+}
+.buynow button
+{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 5px;
+}
+.buynow a
+{
+  text-decoration: none;
+}
+.script img
+{
+    width: 540px;
+    height: 300px;
+    position: absolute;
+    top: 280px;
+    left: 660px;
+}
+.script button
+{
+    position: absolute;
+    top: 510px;
+    left: 860px;
+}
+.script2 button
+{
+    position: absolute;
+    top: 640px;
+    left: 860px;
+    background-color: rgb(33, 94, 206);
+    padding: 5px;
+    outline: none;
+    border-radius: 7px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    color: #e7edf0;
+}
+.script2 button:hover 
+  {
+      box-shadow: 5px 5px 5px gray;
+  }
+.script3 button
+{
+    position: absolute;
+    top: 640px;
+    left: 950px;
+    background-color: orangered;
+    padding: 5px;
+    outline: none;
+    border-radius: 7px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    color: #e7edf0;
+  }
+  .script3 button:hover 
+  {
+      box-shadow: 5px 5px 5px gray;
+  }
+.script4 button
+{
+    position: absolute;
+    top: 640px;
+    left: 900px;
+    background-color: rgb(168, 21, 70);
+    padding: 5px;
+    outline: none;
+    border-radius: 7px;
+  transition: 0.2s ;
+  cursor: pointer;
+  color: #e7edf0;
+}
+.script4 button:hover 
+  {
+      box-shadow: 5px 5px 5px gray;
+  }
+  .emi h2
+  {
+    top: 580px;
+    left: 750px;
+    position: absolute;
+    color: red;
+    background-color: #0a0a0a;
+  }
+  .emi2 h1
+  {
+    top: 600px;
+    left: 860px;
+    position: absolute;
+    color: #e7edf0;
+  }
+  .emi 
+  {
+    animation: emi-animation 1s steps(5, start) infinite;
+    -webkit-animation: emi-animation 1s steps(5, start) infinite;
+  }
+  @keyframes emi-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes emi-animation {
+    to {
+      visibility: hidden;
+    }
+  }

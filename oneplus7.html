@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <title>That's me</title>
+        <link rel="stylesheet" href="neversettle.css">
+    </head>
+    <body>
+        <div class="main">
+            <nav>
+             <div class="logo">
+                <img src="images/OnePlus_Logo.png">
+             </div>
+             <div class="nav-links">
+                <ul>
+                    <li><a href="https://www.oneplus.in/">Home</a></li>
+                    <li><a href="https://community.oneplus.com/">Community</a></li>
+                    <li><a href="https://www.oneplus.in/store">Store</a></li>
+                    <li><a href="https://service.oneplus.com/in">Support</a></li>
+                </ul>
+            </div>
+            </nav>
+            <div class="information">
+                <img src="images/red.png" class="oneplus7">
+                <div id="circle">
+                    <div class="feature one" id="f1">
+                        <img src="images/1089260702679957506.jpg">
+                        <div>
+                            <a href="images/1557907114702.jpeg">
+                            <h1>camera</h1>
+                            <p>48mp Primary setup and <br>5mp depth</p>
+                        </a>
+                    </div>
+                    </div>
+                    <div class="feature two" id="f2">
+                        <img src="images/300px-sd_855_(front).webp">
+                        <div>
+                            <a href="images/Snapdragon-855-Highlights-1024x598.jpg">
+                            <h1>Processor</h1>
+                            <p>Sanapdragon <br>855</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="feature three" id="f3">
+                        <img src="images/battter.png">
+                        <div>
+                          <a href="images/d-wild-usb-dash-charge-adapter-for-oneplus-7-pro-7t-and-8-pro-product-images-orvhhhcuve6-p600764754-6-202304210527.jpg">
+                            <h1>Battery</h1>
+                            <p>30w Dash Charger <br>3600 mAh</p>
+                        </a></div>
+                    </div>
+                    <div class="feature four" id="f4">
+                        <img src="images/main-qimg-dd9027ff2987c8c8f203dd71d1f2f495 (2).png">
+                        <div>
+                            <a href="images/Screenshot (308).png">
+                                <h1>Display</h1>
+                                <p>Optic Amoled <br>6.41 Display</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <img src="images/900px-Red_Arrow_Up.svg.png" id="upBtn">
+                    <h2>Featues</h2>
+                    <img src="images/900px-Red_Arrow_Down.svg.png" id="downBtn">
+                </div>
+            </div>
+            <div class="emi">
+                <h2>CheckOut Instant EMI Discounts</h2>
+            </div>
+            <div class="emi2">
+                <h1>👇🏻👇🏻👇🏻</h1>
+            </div>
+            <div class="buynow">
+                <a href="C:\Users\AKASH MUNIGONDA\Desktop\payment\nothing.html">
+                    <button>Buy Now</button>
+                    </a>
+                </div>
+            <div class="script">
+             <img id="bannerImage" src="images/bb.jpg"> 
+             <div class="script2">
+             <button onclick="changeImage('images/WhatsApp Image 2024-02-10 at 04.11.04_bc28e495.jpg')">SBI</button>
+            </div>
+            <div class="script3"> 
+            <button onclick="changeImage('images/WhatsApp Image 2024-02-10 at 04.11.04_d31059bb.jpg')">HDFC</button>
+        </div>
+            <div class="script4">
+            <button onclick="changeImage('images/WhatsApp Image 2024-02-10 at 04.11.40_96677a90.jpg')">AXIS</button>
+        </div>
+            <script src="hatt.js"></script>
+            </div>
+            </div>
+        <script>
+            var circle = document.getElementById("circle");
+var upBtn = document.getElementById("upBtn");
+var downBtn = document.getElementById("downBtn");
+var rotateValue = circle.style.transform;
+var rotateSum;
+
+upBtn.onclick = function()
+{
+    rotateSum = rotateValue + "rotate(-90deg)";
+    circle.style.transform = rotateSum;
+    rotateValue = rotateSum;
+}
+downBtn.onclick = function()
+{
+    rotateSum = rotateValue + "rotate(90deg)";
+    circle.style.transform = rotateSum;
+    rotateValue = rotateSum;
+}
+        </script>
+         <div>
+            <section class="nothing">
+                <h2>Custmor Reviews</h2>
+                <div class="reviews">
+                   <h2>Sample Video<h2> 
+                    <video controls  src="images/Snapchat-1654739560.mp4">
+                    </video>
+                <div class="reviews2">
+                    <h4>Camera</h4>
+                    <a href="images/WhatsApp Image 2024-01-31 at 04.19.17_a2d677b4.jpg">
+                    <img src="images/WhatsApp Image 2024-01-31 at 04.19.17_a2d677b4.jpg">
+                    </div>
+                </a>
+                    <div class="reviews3">
+                        <a href="images/WhatsApp Image 2024-01-31 at 04.20.37_8ff897d6.jpg">
+                    <img src="images/WhatsApp Image 2024-01-31 at 04.20.37_8ff897d6.jpg">
+                </div>
+            </a>
+            <div class="reviews4">
+                <h4>Performance Top Notch</h4>
+                <video controls  src="images/23-11-24-23-26-04.mp4">
+                </video>
+             </div>
+             </div>
+            </section>
+            </div>
+        </div>
+    </body>
+</html>
